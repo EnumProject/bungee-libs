@@ -19,4 +19,8 @@ public abstract class BungeePlayer implements ProxiedPlayer {
         return player.getServer().getInfo().getName();
     }
 
+    public void setReconnectServer(String name) {
+        player.setReconnectServer(ProxyServer.getInstance().getServerInfo(name));
+    }
+
 }
