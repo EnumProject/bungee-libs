@@ -6,7 +6,7 @@ import it.enumproject.bungeelibs.server.util.ChatUtils;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.plugin.Command;
 
-public abstract class CommandHandler extends Command {
+public abstract class BungeeCommand extends Command {
 
     protected final String command;
     protected final String permission;
@@ -14,7 +14,7 @@ public abstract class CommandHandler extends Command {
 
     protected final BungeePlugin plugin;
 
-    public CommandHandler(BungeePlugin plugin, String command, String permission, boolean canConsoleUse, String... aliases) {
+    public BungeeCommand(BungeePlugin plugin, String command, String permission, boolean canConsoleUse, String... aliases) {
         super(command, permission, aliases);
 
         this.plugin = plugin;
