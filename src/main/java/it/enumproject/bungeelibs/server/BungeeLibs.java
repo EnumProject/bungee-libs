@@ -1,4 +1,4 @@
-package it.axiid.bungeelibs.server;
+package it.enumproject.bungeelibs.server;
 
 import lombok.Getter;
 
@@ -16,4 +16,5 @@ public class BungeeLibs extends BungeePlugin {
     public void onUnload() {
         super.onDisable();
     }
+
 }

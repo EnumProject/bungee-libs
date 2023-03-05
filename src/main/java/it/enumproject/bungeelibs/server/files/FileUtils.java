@@ -1,7 +1,7 @@
-package it.axiid.bungeelibs.server.files;
+package it.enumproject.bungeelibs.server.files;
 
-import it.axiid.bungeelibs.server.BungeeLibs;
-import it.axiid.bungeelibs.server.BungeePlugin;
+import it.enumproject.bungeelibs.server.BungeeLibs;
+import it.enumproject.bungeelibs.server.BungeePlugin;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;

@@ -1,4 +1,4 @@
-package it.axiid.bungeelibs.server.player;
+package it.enumproject.bungeelibs.server.player;
 
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
@@ -13,6 +13,10 @@ public abstract class BungeePlayer implements ProxiedPlayer {
 
     public void connect(String name) {
         player.connect(ProxyServer.getInstance().getServerInfo(name));
+    }
+
+    public String getServerName() {
+        return player.getServer().getInfo().getName();
     }
 
 }

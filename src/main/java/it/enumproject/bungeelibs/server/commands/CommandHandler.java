@@ -1,9 +1,8 @@
-package it.axiid.bungeelibs.server.commands;
+package it.enumproject.bungeelibs.server.commands;
 
-import it.axiid.bungeelibs.server.BungeeLibs;
-import it.axiid.bungeelibs.server.BungeePlugin;
-import it.axiid.bungeelibs.server.player.BungeePlayer;
-import it.axiid.bungeelibs.server.util.ChatUtils;
+import it.enumproject.bungeelibs.server.BungeePlugin;
+import it.enumproject.bungeelibs.server.player.BungeePlayer;
+import it.enumproject.bungeelibs.server.util.ChatUtils;
 import net.md_5.bungee.api.CommandSender;
 import net.md_5.bungee.api.plugin.Command;
 

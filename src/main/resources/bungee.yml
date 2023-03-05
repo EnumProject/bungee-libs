@@ -1,3 +1,3 @@
 name: BungeeLibs
 version: '${version}'
-main: it.axiid.bungeelibs.server.BungeeLibs
+main: it.enumproject.bungeelibs.server.BungeeLibs

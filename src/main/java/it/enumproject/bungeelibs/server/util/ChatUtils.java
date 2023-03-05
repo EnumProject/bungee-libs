@@ -1,4 +1,4 @@
-package it.axiid.bungeelibs.server.util;
+package it.enumproject.bungeelibs.server.util;
 
 import net.md_5.bungee.api.ChatColor;
 

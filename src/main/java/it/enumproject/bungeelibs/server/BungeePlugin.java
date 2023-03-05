@@ -1,6 +1,6 @@
-package it.axiid.bungeelibs.server;
+package it.enumproject.bungeelibs.server;
 
-import it.axiid.bungeelibs.server.files.FileUtils;
+import it.enumproject.bungeelibs.server.files.FileUtils;
 import net.md_5.bungee.api.plugin.Plugin;
 
 public abstract class BungeePlugin extends Plugin {
